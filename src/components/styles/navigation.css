@@ -1,0 +1,94 @@
+.navbar{
+    position: fixed;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);    
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px  ;
+    display: flex;
+    transition:ease;
+    transition-duration:1s
+}
+.navbar > .active { 
+   background-color: #808b96;
+   
+}
+.navbar:hover{
+    height: 8%;
+}
+.about::before{
+    content:'';
+    position: absolute;
+    width: 13%;
+    height: 4px;
+    left: 330px;
+    background-color: #00cfffc9;
+    visibility: hidden;
+    transform:rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+.about:hover::before{
+    visibility: visible;
+    transform: rotate(180deg);
+}
+.home::before{
+    content:'';
+    position: absolute;
+    width: 13%;
+    height: 4px;
+    left: 50px;
+    background-color: #00cfffc9;
+    visibility: hidden;
+    transform:rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+.home:hover::before{
+    visibility: visible;
+    transform: rotate(180deg);
+}
+.projects::before{
+    content:'';
+    position: absolute;
+    width: 13%;
+    height: 4px;
+    left: 870px;
+    background-color: #00cfffc9;
+    visibility: hidden;
+    transform:rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+.projects:hover::before{
+    visibility: visible;
+    transform: rotate(180deg);
+}
+.resume::before{
+    content:'';
+    position: absolute;
+    width: 13%;
+    height: 4px;
+    left: 600px;
+    background-color: #00cfffc9;
+    visibility: hidden;
+    transform:rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+.resume:hover::before{
+    visibility: visible;
+    transform: rotate(180deg);
+}
+.contact::before{
+    content:'';
+    position: absolute;
+    width: 13%;
+    height: 4px;
+    right: 60px;
+    background-color: #00cfffc9;
+    visibility: hidden;
+    transform:rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+.contact:hover::before{
+    visibility: visible;
+    transform: rotate(180deg);
+}

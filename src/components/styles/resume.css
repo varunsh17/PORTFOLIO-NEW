@@ -1,0 +1,18 @@
+.parallax2{
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3)), url(./images/resume.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.content2{
+    background-color: #00000070;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    justify-content: end;
+    padding: 10px;
+    color: white;
+}
