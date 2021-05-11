@@ -50,7 +50,7 @@ function Navigation() {
             <div className='nam'>
                 I KNOW
                 <div >
-                <Typical loop={Infinity} wrapper='U' steps={['PYTHON',5000,'REACT JS',5000,'HTML',5000,'CSS',5000,'JAVA',5000]}/> 
+                <Typical loop={Infinity} wrapper='U' steps={['PYTHON',5000,'REACT JS',5000,'CSS',5000,'JAVA',5000]}/> 
                 </div>           
             </div>
             <div className='main'>
