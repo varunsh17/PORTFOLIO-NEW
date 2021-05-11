@@ -4,15 +4,30 @@
     height: 700px;
     background-size: 100% 100%;
     background-attachment: fixed;
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .content2{
-    background-color: #00000070;
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: 40%;
-    justify-content: end;
-    padding: 10px;
-    color: white;
+        background-color: #00000070;
+        height: 3%;
+        padding: 10px;
+        color: white;
+
+
+        animation: transitionIn 5s;
+        animation-iteration-count:infinite;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 1;
+       transform: translateY(0);
+      
+    }
+    to{
+        opacity: 0;
+        transform: translateY(540px);
+    }
+    
 }
